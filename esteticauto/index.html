@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vértice Estética Automotiva — estética, proteção e acabamento automotivo. Solicite uma avaliação pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#03060c" />
+    <title>Vértice Estética Automotiva</title>
+    <link rel="preload" as="image" href="assets/hero-real.jpg" fetchpriority="high" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Vértice — início">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M4 4h32L20 36 4 4Z" />
+          <path d="m11 10 9 17 9-17" />
+        </svg>
+        <span>Vértice</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+        data-menu-toggle
+      >
+        <span class="sr-only">Abrir menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="menu-principal" aria-label="Navegação principal" data-menu>
+        <a href="#servicos">Serviços</a>
+        <a href="#resultado">Antes e depois</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#localizacao">Contato</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+
+      <a class="button button--compact header-cta whatsapp-link" href="[LINK DO WHATSAPP]">
+        Agendar agora
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title" data-motion-section>
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="assets/hero-real.jpg"
+            alt=""
+            width="1920"
+            height="1280"
+            fetchpriority="high"
+            data-parallax="0.08"
+          />
+          <div class="hero__beam"></div>
+        </div>
+
+        <div class="hero__content container">
+          <p class="eyebrow reveal">Estética automotiva de precisão</p>
+          <h1 id="hero-title" class="reveal reveal--delay-1">
+            Seu carro com<br />
+            aparência de <em>novo.</em>
+          </h1>
+          <p class="hero__lead reveal reveal--delay-2">
+            Estética, proteção e acabamento de alto nível em cada detalhe.
+          </p>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a class="button whatsapp-link" href="[LINK DO WHATSAPP]">
+              Solicitar orçamento
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="text-link" href="#servicos">
+              Conhecer serviços
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__foot container" aria-hidden="true">
+          <span>01 / VÉRTICE</span>
+          <span class="hero__scroll">Role para explorar</span>
+        </div>
+      </section>
+
+      <section class="section services" id="servicos" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 — Especialidades</p>
+              <h2 id="services-title">Cuidado em<br /><em>cada superfície.</em></h2>
+            </div>
+            <p class="section-intro">
+              Do acabamento da pintura ao interior, escolha o cuidado que o seu carro precisa.
+              A recomendação final depende de uma avaliação do veículo.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card service-card--wide media-parallax" data-motion-section>
+              <img src="assets/hero-real.jpg" alt="Profissional realizando polimento na carroceria de um veículo" width="1920" height="1280" loading="lazy" decoding="async" data-parallax="0.04" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">01</span>
+                <h3>Polimento técnico</h3>
+                <p>Correção visual e refinamento do brilho da pintura.</p>
+              </div>
+            </article>
+
+            <article class="service-card service-card--tall media-parallax" data-motion-section>
+              <img src="assets/carro-real.jpg" alt="Carro azul com pintura brilhante em ambiente urbano" width="1920" height="1280" loading="lazy" decoding="async" data-parallax="0.06" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">02</span>
+                <h3>Vitrificação</h3>
+                <p>Camada de proteção e acabamento para a pintura.</p>
+              </div>
+            </article>
+
+            <article class="service-card media-parallax" data-motion-section>
+              <img class="service-card__crop-interior" src="assets/detalhe-real.jpg" alt="Aplicação manual durante o cuidado da pintura automotiva" width="1600" height="1067" loading="lazy" decoding="async" data-parallax="0.05" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">03</span>
+                <h3>Higienização interna</h3>
+                <p>Limpeza cuidadosa das superfícies internas.</p>
+              </div>
+            </article>
+
+            <article class="service-card media-parallax" data-motion-section>
+              <img src="assets/detalhe-real.jpg" alt="Espuma e aplicação cuidadosa sobre a carroceria" width="1600" height="1067" loading="lazy" decoding="async" data-parallax="0.04" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">04</span>
+                <h3>Lavagem detalhada</h3>
+                <p>Limpeza externa com atenção a áreas e acabamentos.</p>
+              </div>
+            </article>
+
+            <article class="service-card service-card--wide media-parallax" data-motion-section>
+              <img src="assets/carro-real.jpg" alt="Carro esportivo azul com acabamento brilhante" width="1920" height="1280" loading="lazy" decoding="async" data-parallax="0.05" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">05</span>
+                <h3>Proteção de pintura</h3>
+                <p>Opções de proteção indicadas conforme uso e condição do veículo.</p>
+              </div>
+            </article>
+
+            <article class="service-card media-parallax" data-motion-section>
+              <img class="service-card__crop-light" src="assets/carro-real.jpg" alt="Detalhe do farol e da pintura de um carro azul" width="1920" height="1280" loading="lazy" decoding="async" data-parallax="0.06" />
+              <div class="service-card__shade"></div>
+              <div class="service-card__content">
+                <span class="service-card__number">06</span>
+                <h3>Revitalização de faróis</h3>
+                <p>Tratamento visual da lente e recuperação de transparência.</p>
+              </div>
+            </article>
+
+            <article class="service-card service-card--outline">
+              <div class="service-card__content">
+                <span class="service-card__number">07</span>
+                <h3>Outros serviços</h3>
+                <p>Fale com a equipe para avaliar uma necessidade específica.</p>
+                <a class="text-link whatsapp-link" href="[LINK DO WHATSAPP]">Consultar disponibilidade <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section comparison-section" id="resultado" aria-labelledby="comparison-title">
+        <div class="container">
+          <div class="section-heading section-heading--comparison">
+            <div>
+              <p class="eyebrow">02 — Transformação</p>
+              <h2 id="comparison-title">O detalhe muda<br /><em>o conjunto.</em></h2>
+            </div>
+            <p class="section-intro">
+              Arraste a linha ou use as setas do teclado para comparar o mesmo carro, na mesma posição, antes e depois do acabamento.
+              A composição é demonstrativa e não representa o resultado literal de um serviço da Vértice.
+            </p>
+          </div>
+
+          <div class="comparison" data-comparison style="--position: 50%">
+            <img
+              class="comparison__image comparison__image--before"
+              src="assets/carro-antes-envelhecido.jpg"
+              alt="O mesmo carro azul com pintura envelhecida, opaca e suja antes do acabamento"
+              width="1536"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="comparison__before-treatment" aria-hidden="true"></div>
+            <div class="comparison__after" aria-hidden="true">
+              <img
+                class="comparison__image"
+                src="assets/carro-real.jpg"
+                alt=""
+                width="1920"
+                height="1280"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+
+            <span class="comparison__label comparison__label--before">Antes</span>
+            <span class="comparison__label comparison__label--after">Depois</span>
+
+            <div class="comparison__divider" aria-hidden="true">
+              <span class="comparison__handle">
+                <svg viewBox="0 0 32 32">
+                  <path d="m12 10-6 6 6 6M20 10l6 6-6 6" />
+                </svg>
+              </span>
+            </div>
+
+            <label class="sr-only" for="comparison-range">Comparar antes e depois</label>
+            <input
+              class="comparison__range"
+              id="comparison-range"
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              aria-valuetext="50% da imagem depois visível"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section advantages" id="diferenciais" aria-labelledby="advantages-title">
+        <div class="container advantages__layout">
+          <div class="advantages__heading">
+            <p class="eyebrow">03 — Padrão Vértice</p>
+            <h2 id="advantages-title">Precisão não é<br /><em>um detalhe.</em></h2>
+            <p>
+              Uma proposta de atendimento claro, cuidadoso e adequado à condição de cada veículo.
+              Valide estes diferenciais com a operação real da Vértice antes da publicação.
+            </p>
+          </div>
+
+          <div class="advantages__list">
+            <article class="advantage">
+              <span class="advantage__index">01</span>
+              <div>
+                <span class="advantage__meta">Avaliação individual</span>
+                <h3>O serviço certo para cada caso</h3>
+                <p>A condição do veículo e o resultado desejado orientam a recomendação antes do início do trabalho.</p>
+              </div>
+            </article>
+            <article class="advantage">
+              <span class="advantage__index">02</span>
+              <div>
+                <span class="advantage__meta">Execução criteriosa</span>
+                <h3>Cuidado em cada etapa</h3>
+                <p>Do preparo ao acabamento, cada superfície recebe uma abordagem compatível com o material e o serviço.</p>
+              </div>
+            </article>
+            <article class="advantage">
+              <span class="advantage__index">03</span>
+              <div>
+                <span class="advantage__meta">Pós-serviço</span>
+                <h3>Orientação para conservar</h3>
+                <p>Na entrega, o cliente recebe recomendações de cuidados de acordo com o tratamento realizado.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="motion-cta" aria-labelledby="cta-title" data-motion-section>
+        <div class="motion-cta__media" aria-hidden="true">
+          <img src="assets/cta-movimento.jpg" alt="" width="2048" height="1024" loading="lazy" decoding="async" data-parallax="0.07" />
+          <div class="motion-cta__streak"></div>
+        </div>
+        <div class="container motion-cta__content">
+          <p class="eyebrow">O próximo nível de cuidado</p>
+          <h2 id="cta-title">Seu carro merece<br />o padrão <em>Vértice.</em></h2>
+          <a class="button whatsapp-link" href="[LINK DO WHATSAPP]">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="section-heading section-heading--compact">
+            <div>
+              <p class="eyebrow">04 — Experiências</p>
+              <h2 id="testimonials-title">O cuidado percebido<br /><em>por quem dirige.</em></h2>
+            </div>
+            <p class="section-intro testimonial-demo-note">Depoimentos demonstrativos para visualizar a página final. Substitua por avaliações autorizadas antes de publicar.</p>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <span class="testimonial-card__service">Polimento técnico</span>
+              <blockquote>“O atendimento foi claro desde a avaliação. Explicaram o que realmente valia a pena fazer e o carro ficou com outro aspecto.”</blockquote>
+              <footer>Lucas Almeida <span>· Cliente demonstrativo</span></footer>
+            </article>
+            <article class="testimonial-card">
+              <span class="testimonial-card__service">Higienização interna</span>
+              <blockquote>“Gostei do cuidado com os detalhes e da organização na entrega. O interior ficou leve, limpo e muito bem finalizado.”</blockquote>
+              <footer>Mariana Costa <span>· Cliente demonstrativa</span></footer>
+            </article>
+            <article class="testimonial-card">
+              <span class="testimonial-card__service">Proteção de pintura</span>
+              <blockquote>“A equipe foi atenciosa, cumpriu o combinado e ainda orientou sobre os cuidados depois do serviço.”</blockquote>
+              <footer>Bruno Martins <span>· Cliente demonstrativo</span></footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="duvidas" aria-labelledby="faq-title">
+        <div class="container faq__layout">
+          <div class="faq__heading">
+            <p class="eyebrow">05 — Perguntas frequentes</p>
+            <h2 id="faq-title">Antes de<br /><em>agendar.</em></h2>
+            <p>As respostas comerciais devem ser ajustadas com as regras reais da Vértice.</p>
+          </div>
+
+          <div class="faq__list">
+            <details>
+              <summary>Como saber qual serviço meu carro precisa?<span aria-hidden="true">+</span></summary>
+              <p>A indicação ideal depende da condição da pintura, do interior e do objetivo desejado. Envie fotos pelo WhatsApp para uma avaliação inicial.</p>
+            </details>
+            <details>
+              <summary>Quanto tempo dura cada serviço?<span aria-hidden="true">+</span></summary>
+              <p>O prazo varia conforme o serviço e o estado do veículo. <strong>[Inserir prazos reais após confirmação da Vértice.]</strong></p>
+            </details>
+            <details>
+              <summary>Como funciona o agendamento?<span aria-hidden="true">+</span></summary>
+              <p>Use qualquer botão de WhatsApp desta página para consultar disponibilidade. <strong>[Confirmar o fluxo real de agendamento.]</strong></p>
+            </details>
+            <details>
+              <summary>Quais formas de pagamento são aceitas?<span aria-hidden="true">+</span></summary>
+              <p><strong>[Informar as formas de pagamento realmente aceitas pela Vértice.]</strong></p>
+            </details>
+            <details>
+              <summary>Quais cuidados devo ter depois do serviço?<span aria-hidden="true">+</span></summary>
+              <p>As orientações variam conforme o tratamento aplicado. A equipe deve explicar os cuidados específicos na entrega do veículo.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-info" id="localizacao" aria-labelledby="contact-info-title">
+        <div class="container">
+          <div class="contact-info__heading">
+            <div>
+              <p class="eyebrow">06 — Encontre a Vértice</p>
+              <h2 id="contact-info-title">Seu próximo cuidado<br /><em>começa aqui.</em></h2>
+            </div>
+            <div class="contact-info__intro">
+              <span class="placeholder-tag">Dados demonstrativos</span>
+              <p>Substitua endereço, telefone e perfil pelos dados oficiais da Vértice antes de publicar.</p>
+            </div>
+          </div>
+
+          <div class="contact-info__grid">
+            <article class="contact-info__card contact-info__card--address">
+              <span class="contact-info__label">Endereço</span>
+              <h3>Av. Principal, 1250</h3>
+              <p>Centro · Sua cidade — UF</p>
+              <span class="contact-info__detail">Atendimento com agendamento</span>
+            </article>
+
+            <article class="contact-info__card">
+              <span class="contact-info__label">Horários</span>
+              <h3>Seg — Sex</h3>
+              <p>08h às 18h</p>
+              <span class="contact-info__detail">Sábado · 08h às 13h</span>
+            </article>
+
+            <article class="contact-info__card">
+              <span class="contact-info__label">Telefone e WhatsApp</span>
+              <h3>(00) 00000-0000</h3>
+              <a class="text-link whatsapp-link" href="[LINK DO WHATSAPP]">Iniciar conversa <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="contact-info__card">
+              <span class="contact-info__label">Instagram</span>
+              <h3>@vertice.estetica</h3>
+              <p>Novidades, processos e resultados.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contato">
+      <div class="container footer__top">
+        <div class="footer__brand-block">
+          <a class="brand brand--large" href="#inicio" aria-label="Vértice — voltar ao início">
+            <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+              <path d="M4 4h32L20 36 4 4Z" />
+              <path d="m11 10 9 17 9-17" />
+            </svg>
+            <span>Vértice</span>
+          </a>
+          <p>Estética automotiva com presença, precisão e cuidado.</p>
+          <a class="button whatsapp-link" href="[LINK DO WHATSAPP]">Falar no WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="footer__contacts">
+          <div>
+            <span class="footer__label">Telefone / WhatsApp</span>
+            <a href="[LINK DO WHATSAPP]" class="whatsapp-link">(00) 00000-0000</a>
+          </div>
+          <div>
+            <span class="footer__label">Endereço</span>
+            <p>Av. Principal, 1250<br />Centro · Sua cidade — UF</p>
+          </div>
+          <div>
+            <span class="footer__label">Horário</span>
+            <p>Seg — Sex · 08h às 18h<br />Sábado · 08h às 13h</p>
+          </div>
+          <div>
+            <span class="footer__label">Instagram</span>
+            <a href="#contato">@vertice.estetica</a>
+          </div>
+        </div>
+
+        <div class="footer__map" aria-label="Espaço reservado para o mapa da Vértice">
+          <span class="placeholder-tag">Mapa a configurar</span>
+          <strong>Av. Principal, 1250</strong>
+          <p>Centro · Sua cidade — UF. Insira o mapa após confirmar o endereço oficial.</p>
+        </div>
+      </div>
+
+      <div class="container footer__gallery" aria-label="Galeria ilustrativa">
+        <img src="assets/detalhe-real.jpg" alt="Espuma e aplicação durante cuidado automotivo" width="1600" height="1067" loading="lazy" decoding="async" />
+        <img src="assets/hero-real.jpg" alt="Profissional realizando polimento automotivo" width="1920" height="1280" loading="lazy" decoding="async" />
+        <img src="assets/carro-real.jpg" alt="Carro azul com acabamento brilhante" width="1920" height="1280" loading="lazy" decoding="async" />
+        <img src="assets/cta-movimento.jpg" alt="Carro esportivo em túnel escuro" width="2048" height="1024" loading="lazy" decoding="async" />
+      </div>
+
+      <div class="container footer__bottom">
+        <span>© <span data-year></span> Vértice Estética Automotiva</span>
+        <span>Informações comerciais sujeitas à confirmação.</span>
+        <a href="#inicio">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp whatsapp-link" href="[LINK DO WHATSAPP]" aria-label="Agendar pelo WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 4a12 12 0 0 0-10.2 18.3L4 28l5.9-1.7A12 12 0 1 0 16 4Zm0 21.8c-2 0-3.8-.6-5.4-1.6l-.4-.2-3.5 1 1-3.4-.2-.4A9.8 9.8 0 1 1 16 25.8Zm5.4-7.3c-.3-.1-1.8-.9-2.1-1-.3-.1-.5-.1-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.9-.9-3.2-2-4.1-3.7-.2-.3 0-.5.1-.6l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.8-.7 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.4-.3-.7-.5Z" />
+      </svg>
+      <span>Agendar</span>
+    </a>
+  </body>
+</html>

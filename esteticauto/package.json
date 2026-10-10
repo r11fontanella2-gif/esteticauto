@@ -1,0 +1,8 @@
+{
+  "name": "vertice-estetica-automotiva",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "check": "node --check script.js && node qa-check.mjs"
+  }
+}
